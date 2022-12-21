@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helping Hand</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+        
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo">LOGO</a>
+
+    <div id="menu-bar" class="menubar"></div>
+
+    <nav class="navbar">
+        <a style="--i:0;" href="#home">home</a>
+        <a style="--i:1;" href="#feature">feature</a>
+        <a style="--i:2;" href="#service">service</a>
+        <a style="--i:4;" href="#team">team</a>
+        <a style="--i:6;" href="#contact">contact</a>
+    </nav>
+
+</header>
+<!-- header section ends -->
+<!--home section starts-->
+<section class="home" id="home">let menu = document.querySelector('#menu-bar');
+
+    <div class="content">
+        <h3>grow your business with us</h3>
+        <p>Helping Hand ,provides various services to make your life more easy and comfortable,Our main goal to build a better environment for us!</p>
+        <a href="#" class="">search more</a>
+    </div>
+
+    
+</section>
+
+	<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="feature" id="feature">
+
+    <h1 class="heading"> awesome features </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/construction.jpg" alt="">
+            <h3>focus on house-construction services</h3>
+            <p>Home construction or residential construction is the process of constructing a house, apartment building, or similar residential building.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/Electrical.jpg" alt="">
+            <h3>focus on electrical services</h3>
+            <p>Electrical wiring is an electrical installation of cabling and associated devices such as switches, distribution boards, sockets, and light fittings in a structure.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/travelling1..webp" alt="">
+            <h3>focus on travelling services</h3>
+            <p>A travel agency is a private retailer or public service that provides travel and tourism-related services to the general public on behalf of accommodation.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section edns -->
+
+<!-- service section starts  -->
+
+<section class="service" id="service">
+
+    <h1 class="heading"> our services </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/plumbing.jpg" alt="">
+            <h3>pulmber support </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/images.png" alt="">
+            <h3>electrical support </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/construction2.jpg" alt="">
+            <h3>construction support</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/images (1).png" alt="">
+            <h3>servant support</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/Travelling.png" alt="">
+            <h3>travelling support</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/delivery.jpg" alt="">
+            <h3>delivery support</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- team section starts  -->
+
+<section class="team" id="team">
+
+    <h1 class="heading">our team</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/pic1.png" alt="">
+            <h3>Prakhar</h3>
+            <span>web optimizer</span>
+            <p>prakhar handling this very effectively.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/pic2.webp" alt="">
+            <h3>sreyashi</h3>
+            <span>web optimizer</span>
+            <p>sreyashi handling this very effectively.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/pic3.webp" alt="">
+            <h3>john deo</h3>
+            <span>aman</span>
+            <p>aman handling this very effectively</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/pic 4.jpg" alt="">
+            <h3>sam</h3>
+            <span>product testor</span>
+            <p>sam easily resolve any error</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- team section ends -->
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">contact us</h1>
+
+    <div class="row">
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" required>
+                <label>name</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="address" required>
+                <label>address</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="number" required>
+                <label>number</label>
+            </div>
+
+            <div class="inputBox">
+                <textarea required name="" id="" cols="30" rows="10"></textarea>
+                <label>message</label>
+            </div>
+
+            <input type="submit" class="btn" value="send message">
+
+        </form>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1619943375027!5m2!1sen!2sin" allowfullscreen="" loading="fast"></iframe>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>About Us</h3>
+            <p>Helping Hand ,provides various services to make your life more easy and comfortable,Our main goal to build a better environment for us!</p>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">feature</a>
+            <a href="#">service</a>
+            <a href="#">team</a>
+            <a href="#">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>category</h3>
+            <a href="#">Pulmbing services</a>
+            <a href="#">Electric Services</a>
+            <a href="#">House construction services</a>
+            <a href="#">servant services</a>
+            <a href="#">Travelling services</a>
+            <a href="#">Delivery services</a>
+            
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
