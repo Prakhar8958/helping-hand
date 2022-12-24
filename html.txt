@@ -160,7 +160,7 @@
 
         <div class="box">
             <img src="image/pic2.webp" alt="">
-            <h3>sreyashi</h3>
+            <h3>akanksha</h3>
             <span>web optimizer</span>
             <p>sreyashi handling this very effectively.</p>
             <div class="share">
